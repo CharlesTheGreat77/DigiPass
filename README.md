@@ -36,11 +36,13 @@ START YOUR PHYSICAL LEECHING!
 
 # In Action
 PLUG USB INTO VICTIM PC!!
+
 ![pluginUSB](https://user-images.githubusercontent.com/27988707/124519920-d60f9b00-ddb8-11eb-9258-8c96fbe515a5.gif)
 
 WAIT TILL LIGHT ON USB TURNS ON! (That's when the script is finished)
 
 LOOK AT YOUR EMAIL!
+
 ![emailPasswd](https://user-images.githubusercontent.com/27988707/124519926-dd36a900-ddb8-11eb-91d0-34155c544c60.jpg)
 
 
