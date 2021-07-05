@@ -1,5 +1,6 @@
 # DigiPass
 * DigiPass steals the victims web browser passwords, and emails them to the attacker. Plug-in, Plug-out, and watch the passwords come in the mail! 😤
+![rubberducky](https://user-images.githubusercontent.com/27988707/124514312-c25d3800-ddaa-11eb-9b23-f01e3a8901d7.jpeg)
 
 ```
    _   ,--()
