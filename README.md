@@ -39,7 +39,7 @@ PLUG USB INTO VICTIM PC!!
 
 ![pluginUSB](https://user-images.githubusercontent.com/27988707/124519920-d60f9b00-ddb8-11eb-9258-8c96fbe515a5.gif)
 
-WAIT TILL LIGHT ON USB TURNS ON! (It takes about 15 seconds) Unplug and GET TF OUTTA THERE!
+WAIT TILL LIGHT ON USB TURNS ON (it takes about 15 seconds). Unplug and DO THA DASH BIIIHH!
 
 LOOK AT YOUR EMAIL!
 
