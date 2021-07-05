@@ -45,10 +45,25 @@ LOOK AT YOUR EMAIL!
 
 ![emailPasswd](https://user-images.githubusercontent.com/27988707/124519926-dd36a900-ddb8-11eb-91d0-34155c544c60.jpg)
 
+# Extra Sketches to take NOTE on by CedArctic
+- Steal Saved Wifi passwords on a PC
+https://github.com/CedArctic/DigiSpark-Scripts/tree/master/WiFi_Profile_Mailer
+- DNS Poison by changing Hosts file
+https://github.com/CedArctic/DigiSpark-Scripts/tree/master/DNS%20Poisoner
 
+# Trolling Sketches
+- Change Wallpaper Prank
+https://github.com/CedArctic/DigiSpark-Scripts/tree/master/Wallpaper_Prank
+- Star Wars Sound Prank
+https://github.com/CedArctic/DigiSpark-Scripts/tree/master/Hi_Chewy
+- Rick Roll + Fake Windows Update
+https://github.com/CedArctic/DigiSpark-Scripts/tree/master/RickRoll_Update
+- Nerdy Joke 
+https://github.com/CedArctic/DigiSpark-Scripts/tree/master/Talker
+- Mouse Trolling
+https://github.com/CedArctic/DigiSpark-Scripts/tree/master/Silly_Mouse
 
 # Resources
-
 Digispark (Attiny85) $4 TOPS
   https://www.amazon.com/Digispark-Kickstarter-ATTINY85-Arduino-Development/dp/B01MQOPY5C
   ![digispark](https://user-images.githubusercontent.com/27988707/124518769-57fdc500-ddb5-11eb-8f82-ea79b210ea2f.jpeg)
