@@ -24,11 +24,20 @@ Then download the script (sketch), open it in Arduino IDE, and enter your Gmail 
 git clone https://github.com/CharlesTheGreat77/DigiPass
 cd DigiPass/
 nano DigiPass.ino
-
-Line 42: Enter your GMAIL address, and Password.
-       - THEN, keep scrolling right (SAME LINE (42)) and enter the address you wish to send it to. THAT'S IT!
 ```
+Line 42: Enter your GMAIL address, and Password. ![gmailacc](https://user-images.githubusercontent.com/27988707/124519010-13bef480-ddb6-11eb-989c-7b24a835438f.png)
+THEN, keep scrolling right and enter the address you wish to send it to. THAT'S IT! ![sender_rec](https://user-images.githubusercontent.com/27988707/124519048-30f3c300-ddb6-11eb-81b6-247c7fbe62fd.png)
+
+
 # In Action
+PLUG USB INTO VICTIM PC!!
+![pluginUSB](https://user-images.githubusercontent.com/27988707/124519280-d3ac4180-ddb6-11eb-8d1e-edf9e397c5f5.GIF)
+
+WAIT TILL LIGHT ON USB TURNS ON! (That's when the script is finished)
+
+LOOK AT YOUR EMAIL!
+![EmailPasswds](https://user-images.githubusercontent.com/27988707/124519342-05250d00-ddb7-11eb-8045-287df6c0ced7.PNG)
+
 
 
 # Resources
