@@ -32,7 +32,7 @@ Line 42: Enter your GMAIL address, and Password.
 
 
 # Resources
-```
+
 Digispark (Attiny85) $4 TOPS
   https://www.amazon.com/Digispark-Kickstarter-ATTINY85-Arduino-Development/dp/B01MQOPY5C
   ![digispark](https://user-images.githubusercontent.com/27988707/124518769-57fdc500-ddb5-11eb-8f82-ea79b210ea2f.jpeg)
@@ -43,4 +43,3 @@ Chris Hales - PowerShell Password One-liners
 
 CedArctic - DigiSpark-Scripts
   https://github.com/CedArctic/DigiSpark-Scripts
-```
