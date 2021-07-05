@@ -9,6 +9,17 @@
   ( )-'-.------|> DigiPass [ Digispark USB ]
    "     `--[]  < Web Browser Password Stealer
 ```
+
+# Instructions
+```
+Download and install the Arduino IDE (if have not) and configure it for Digispark.
+Watch Seytonic tutorial for easy installation:
+   https://youtu.be/fGmGBa-4cYQ
+Then download the script (sketch), open it in Arduino IDE, and enter your Gmail address,
+   password, and sender email address on LINE 42.
+
+```
+
 # Requirements
 ```
 git clone https://github.com/CharlesTheGreat77/DigiPass
@@ -18,9 +29,17 @@ nano DigiPass.ino
 Line 42: Enter your GMAIL address, and Password.
        - THEN, keep scrolling right (SAME LINE (42)) and enter the address you wish to send it to. THAT'S IT!
 ```
+# In Action
 
-# Equipment
+
+# Resources
 ```
 Digispark (Attiny85) $4 TOPS
   https://www.amazon.com/Digispark-Kickstarter-ATTINY85-Arduino-Development/dp/B01MQOPY5C
+
+Chris Hales - PowerShell Password One-liners
+  https://www.google.com/amp/s/chrishales.wordpress.com/2018/01/03/powershell-password-one-liners/amp/
+
+CedArctic - DigiSpark-Scripts
+  https://github.com/CedArctic/DigiSpark-Scripts
 ```
