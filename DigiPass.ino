@@ -1,6 +1,6 @@
 #include "DigiKeyboard.h"
 #define KEY_DOWN 0x51 // Keyboard Down Arrow
-#define KEY_ENTER 0x28 //Return/Enter Key
+#define KEY_ENTER 0x28 // Enter Key
 
 void setup() {
   pinMode(1, OUTPUT); //LED on Model A
