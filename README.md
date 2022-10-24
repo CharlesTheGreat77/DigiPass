@@ -10,6 +10,11 @@
    "     `--[]  < Web Browser Password Stealer
 ```
 
+# DISCLAIMER
+This project must not be used for illegal purposes, and is strictly for educational purposes and for people to experiment with. The user takes full responsibility for their own actions.
+
+
+
 # Instructions
 Download and install the Arduino IDE (if have not) and configure it for Digispark.
 
@@ -35,11 +40,11 @@ THEN, keep scrolling right and enter the address you wish to send it to. THAT'S 
 START YOUR PHYSICAL LEECHING!
 
 # In Action
-PLUG USB INTO VICTIM PC!!
+PLUG USB INTO "VICTIM" PC!!
 
 ![pluginUSB](https://user-images.githubusercontent.com/27988707/124519920-d60f9b00-ddb8-11eb-9258-8c96fbe515a5.gif)
 
-WAIT TILL LIGHT ON USB TURNS ON (it takes about 15 seconds). Unplug and DO THA DASH BIIIHH!
+WAIT TILL LIGHT ON USB TURNS ON (it takes about 15 seconds).
 
 LOOK AT YOUR EMAIL!
 
