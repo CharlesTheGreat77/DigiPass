@@ -68,6 +68,12 @@ https://github.com/CedArctic/DigiSpark-Scripts/tree/master/Talker
 - Mouse Trolling
 https://github.com/CedArctic/DigiSpark-Scripts/tree/master/Silly_Mouse
 
+# FlipperZero Based Repo
+BADUSB Repo https://github.com/CharlesTheGreat77/BADUSB
+
+# Token Grabber for BADUSB
+https://github.com/CharlesTheGreat77/token2Discord
+
 # Resources
 Digispark (Attiny85) $4 TOPS
   https://www.amazon.com/Digispark-Kickstarter-ATTINY85-Arduino-Development/dp/B01MQOPY5C
