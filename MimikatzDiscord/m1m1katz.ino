@@ -77,4 +77,3 @@ void loop() {
 	DigiKeyboard.delay(5000);
 	for(;;){ /*empty*/ }
 }
-}
